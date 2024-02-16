@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.accelbyte.networking": {
-      "version": "file:H:/github/accelbyte-unity-networking",
+      "version": "file:../../accelbyte-unity-networking",
       "depth": 0,
       "source": "local",
       "dependencies": {
