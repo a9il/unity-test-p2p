@@ -54,13 +54,9 @@ public class MenuCanvas : NetworkBehaviour
 
     private void OnSendToHostBtnClicked()
     {
-        //if (IsOwner)
-        //{
-        //    SendToHostServerRpc();
-        //}
         SendToHostServerRpc();
     }
-    [ServerRpc(RequireOwnership=false)]
+    [ServerRpc(RequireOwnership =false)]
     private void SendToHostServerRpc()
     {
         if (IsHost)
@@ -97,12 +93,12 @@ public class MenuCanvas : NetworkBehaviour
     {
         if (_isHost)
         {
-            //SendGeneratedData();
-            SendSingleClientRpc(new LevelObject(){
-                ID = 10,
-                m_position = new Vector3(10,1,2),
-                m_prefabName = "prefabName"
-            });
+            SendGeneratedData();
+            //SendSingleClientRpc(new LevelObject(){
+            //    ID = 10,
+            //    m_position = new Vector3(10,1,2),
+            //    m_prefabName = "prefabName"
+            //});
         }
     }
 
