@@ -1,15 +1,14 @@
 {
   "dependencies": {
     "com.accelbyte.networking": {
-      "version": "https://github.com/AccelByte/accelbyte-unity-networking.git",
+      "version": "file:H:/github/accelbyte-unity-networking",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.transport": "1.0.0",
         "com.unity.webrtc": "2.4.0-exp.6",
         "com.unity.netcode.gameobjects": "1.0.0-pre.8"
-      },
-      "hash": "9a43af6e0f0e4e71ec02fd61f94b021ed1eb90a8"
+      }
     },
     "com.accelbyte.unitysdk": {
       "version": "https://github.com/AccelByte/accelbyte-unity-sdk.git",
